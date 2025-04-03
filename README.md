@@ -5,7 +5,7 @@ Bu repo, Ubuntu sunucularda Docker'ı tek komutla kurmak için hazırlanmıştı
 ## Kullanım
 
 ```bash
-git clone https://github.com/kullaniciadi/docker-setup.git
+git clone https://github.com/Rastiel/docker-setup.git
 cd docker-setup
 chmod +x install.sh
 ./install.sh
