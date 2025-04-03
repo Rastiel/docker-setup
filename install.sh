@@ -29,8 +29,10 @@ echo "🔁 Docker servisi başlatılıyor..."
 sudo systemctl start docker
 sudo systemctl enable docker
 
-# 6. Test
+# 6. Test container
 echo "✅ Kurulum tamam! Test container'ı çalıştırılıyor..."
 sudo docker run hello-world
 
-echo "🎉 Docker başarıyla kuruldu!"
+# 7. Ek bilgi: Versiyon çıktısı
+echo "📌 Kurulum tamamlandı. Docker versiyonu:"
+docker --version
